@@ -7,7 +7,7 @@ Basically you can load the custom element or web component:
 
 ```php
 
-		HTMLHelper::_('webcomponent', 'mod_mymodule/mymodule.min.js', ['version' => 'auto', 'relative' => true]);
+  HTMLHelper::_('webcomponent', 'mod_mymodule/mymodule.min.js', ['version' => 'auto', 'relative' => true]);
 
 ```
 
