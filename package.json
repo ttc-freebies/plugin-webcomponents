@@ -1,0 +1,27 @@
+{
+  "name": "ttc-webcomponents",
+  "version": "1.0.0",
+  "description": "Web components support for Joomla 3.x",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttc-freebies/ttc-webcomponents.git"
+  },
+  "keywords": [
+    "webcomponents",
+    "joomla"
+  ],
+  "author": "Dimitrios Grammatikogiannis",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/ttc-freebies/ttc-webcomponents/issues"
+  },
+  "homepage": "https://github.com/ttc-freebies/ttc-webcomponents#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^4.1.0"
+  }
+}

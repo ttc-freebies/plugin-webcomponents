@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><updates>
+	<update>
+		<name>Webcomponents for J!3</name>
+		<version>1.0.0</version>
+		<infourl title="Webcomponents for J!3"><![CDATA[https://github.com/ttc-freebies/ttc-webcomponents]]></infourl>
+		<downloads>
+			<downloadurl type="full" format="zip"><![CDATA[https://github.com/ttc-freebies/ttc-webcomponents/releases/download/1.0.0/plg_system_webcomponents.zip]]></downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3.8"/>
+		<element>webcomponents</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>0</client>
+	</update>
+</updates>

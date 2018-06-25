@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="system" method="upgrade">
+	<name>Web Components core support</name>
+	<author>Dimitris Grammatikogiannis</author>
+	<copyright>(C) 2018 Dimitris Grammatikogiannis. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>d.grammatiko@gmail.com</authorEmail>
+	<authorUrl>dgrammatiko.online</authorUrl>
+	<version>1.0.0</version>
+	<description>This plugin will backport the support for web components to Joomla 3.8+</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename plugin="webcomponents">webcomponents.php</filename>
+	</files>
+	<media folder="vendor" destination="vendor">
+		<folder>webcomponentsjs</folder>
+	</media>
+	<updateservers>
+		<server type="extension" priority="1" name="Webcomponents for J!3">https://raw.githubusercontent.com/ttc-freebies/updates/master/webcomponents/updates.xml</server>
+	</updateservers>
+</extension>
