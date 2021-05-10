@@ -22,6 +22,6 @@
   "homepage": "https://github.com/ttc-freebies/ttc-webcomponents#readme",
   "devDependencies": {
     "gulp": "4.0.2",
-    "gulp-zip": "5.0.2"
+    "gulp-zip": "5.1.0"
   }
 }
